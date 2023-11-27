@@ -4,7 +4,7 @@
     flex-wrap: nowrap;
     flex-direction: column;
     gap: 50px;
-    background-image: url(../images/favicon-grey.svg);
+    background-image: url(../images/icon-grey.png);
     background-repeat: no-repeat;
     background-size: 459px 408px;
     background-position: 125px 611px;
@@ -30,11 +30,13 @@ margin-bottom: 20px;
 
 @media screen and (min-width: 768px) {
 
+    .container.about {
+        padding-bottom: 100px;
+    }
     .about {
         gap: 40px;
         background-size: 544px 484px;
         background-position: 399px 473px;
-        padding-bottom: 100px;
     }
     
     .about-title {
@@ -49,6 +51,11 @@ margin-bottom: 20px;
   }
   
   @media screen and (min-width: 1280px) {
+
+    .container.about {
+        padding-bottom: 150px;
+    }
+
     .about {
         display: flex;
         flex-direction: row;
@@ -57,7 +64,6 @@ margin-bottom: 20px;
         gap: 50px;
         background-size: 545px 484px;
         background-position: 895px 141px;
-        padding-bottom: 150px;
     }
     
   }
