@@ -1,9 +1,5 @@
 /* ================ MOBILE HERO ================ */
 
-button {
-  border: none;
-}
-
 .hero-container {
     padding-top: 60px;
     display: flex;
