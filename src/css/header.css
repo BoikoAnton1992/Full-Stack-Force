@@ -1,4 +1,131 @@
-.header_test{
-    color: green;
-    padding-bottom: 40px;
+html {
+  scroll-behavior: smooth;
+}
+.header-container {
+  display: flex;
+  background-color: #1c2225;
+  justify-content: space-between;
+}
+
+.page-nav {
+  display: flex;
+  padding-top: 20px;
+}
+.nav-logo-header {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav-list {
+  display: none;
+}
+.nav-link {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: #ecd979;
+}
+.mobile-tel-container {
+  display: flex;
+  padding-top: 20px;
+}
+.tel-link {
+  display: none;
+}
+.mobile-social {
+  display: flex;
+  gap: 20px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.social-item {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
+  height: 44px;
+  width: 44px;
+
+  transition-duration: 250ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-item:hover,
+.social-item:focus,
+.social-item:active {
+  border-color: #ecd979;
+  background-color: transparent;
+}
+.social-link {
+  width: 28px;
+  height: 28px;
+}
+.social-icon {
+  align-items: center;
+}
+.solid-menu-btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.solid-menu {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+}
+@media screen and (min-width: 1280px) {
+  .nav-logo-header {
+    margin-right: 60px;
+  }
+  .nav-list {
+    font-size: 14px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-list {
+    margin-right: 0;
+  }
+  .tel-link {
+    font-size: 14px;
+    line-height: 1.42;
+    text-transform: uppercase;
+    display: flex;
+    color: #fcf9f9;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .tel-link:hover,
+  .tel-link:focus,
+  .tel-link:active {
+    border-color: #ecd979;
+  }
+
+  .solid-menu-btn {
+    display: none;
+  }
 }
