@@ -1,0 +1,49 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about_ua.css');
+@import url('./our_collection.css');
+@import url('./your_order.css');
+@import url('./testimonials.css');
+@import url('./footer.css');
+
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: #1C2225;
+  color: #FCF9F9;
+}
+
+
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 375px) {}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    min-width: 1280px;
+    padding: 0 99px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1440px) {}

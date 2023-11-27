@@ -50,10 +50,10 @@ img {
     align-items: center;
     flex-direction: column;
     background-color: #1C2225;
-    background-image: url(../images/favicon-yellow.svg);
+    background-image: url(../images/icon-yellow.png);
     background-repeat: no-repeat;
-    background-position: -68px 236px;
-    background-size: 158px 199px;
+    background-position: -66px 267px;
+    background-size: 153px 144px;
 }
 
 .collect-list {
@@ -153,8 +153,8 @@ img {
     }
 
     .collect-box {
-        background-position: -106px 178px;
-        background-size: 264px 300px;
+        background-position: -98px 201px;
+        background-size: 254px 241px;
     }
 
     .collect-title {
@@ -199,8 +199,8 @@ img {
     }
 
     .collect-box {
-        background-position: -15px 153px;
-        background-size: 270px 338px;
+        background-position: -4px 198px;
+        background-size: 254px 241px;
     }
 
     .collect-title {
@@ -238,7 +238,7 @@ img {
     }
 
     .collect-box {
-        background-position: 13px 128px;
-        background-size: 237px 338px;
+        background-position: 18px 190px;
+        background-size: 230px 208px;
     }
 }
