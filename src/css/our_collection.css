@@ -1,4 +1,268 @@
-.our-collection-test {
-    color: blue;
-    padding-bottom: 40px;
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #1C2225;
+    color: #FCF9F9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    /* max-width: 100%;
+    height: auto; */
+}
+
+.container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+.collect-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1C2225;
+    background-image: url(../images/icon-yellow.png);
+    background-repeat: no-repeat;
+    background-position: -66px 267px;
+    background-size: 153px 144px;
+}
+
+.collect-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 280px;
+}
+
+.collect-item {
+    width: 280px;
+}
+
+.collect-img-box img {
+    border-radius: 4px;
+}
+
+.collect {
+    padding-top: 18px;
+    padding-bottom: 80px;
+}
+
+.collect-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    white-space: nowrap;
+}
+
+.collect-price {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.7px;
+    margin-top: 8px;
+    height: auto;
+    width: 70px;
+}
+
+.collect-title-box {
+    width: auto;
+}
+
+.collect-title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    white-space: nowrap;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* ===================================== Background Collect======================================= */
+.collect-bg {
+    display: block;
+    background-color: #1C2225;
+    background-image: url(../images/mobile-1x-335/collect_bg-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 550px;
+    margin: 80px auto;
+}
+
+/* ====================================== Adaptive Mode======================================= */
+@media (min-width: 375px) {}
+
+/* ================ 768px ================== */
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .container {
+        min-width: 768px;
+        padding: 0 32px;
+        margin: 0 auto;
+    }
+
+    .collect-list {
+        width: 580px;
+    }
+
+    .collect-bg {
+        background-image: url(../images/tablet-1x-704/collect_bg-tab.jpg);
+        height: 782px;
+        margin: 80px auto;
+    }
+
+    .collect-box {
+        background-position: -98px 201px;
+        background-size: 254px 241px;
+    }
+
+    .collect-title {
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 64px;
+        letter-spacing: -1.32px;
+        white-space: nowrap;
+    }
+
+    .collect-description {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .collect-price {
+        color: rgba(252, 249, 249, 0.40);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.9px;
+        white-space: nowrap;
+    }
+}
+
+/* ================ 1280px ================== */
+@media screen and (min-width: 1280px) {
+    .container {
+        min-width: 1280px;
+        padding: 0 99px;
+        margin: 0 auto;
+    }
+
+    .collect-list {
+        width: 880px;
+    }
+
+    .collect-box {
+        background-position: -4px 198px;
+        background-size: 254px 241px;
+    }
+
+    .collect-title {
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 64px;
+        letter-spacing: -1.32px;
+        white-space: nowrap;
+    }
+
+    .collect-description {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .collect-bg {
+        background-image: url(../images/desktop-1-1x-1280/collect_bg.jpg);
+        height: 776px;
+        margin: 150px auto;
+    }
+
+    .collect-price {
+        color: rgba(252, 249, 249, 0.40);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.9px;
+        white-space: nowrap;
+    }
+
+    .collect-img-box {
+        transition:
+            transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .collect-img-box:hover,
+    .collect-img-box:focus,
+    .collect-img-box:active {
+        border-radius: 4px;
+        transform: scale(1.04);
+        border: 1px solid #ECD979;
+        box-shadow: 0px 4px 4px 0px #ecd979;
+    }
+}
+
+/* ================ 1440px ================== */
+@media screen and (min-width: 1440px) {
+    .collect-bg {
+        background-image: url(../images/desktop-2-1x-1440/collect_bg-2-x1.jpg);
+        height: 872px;
+        margin: 150px auto;
+    }
+
+    .collect-box {
+        background-position: 18px 190px;
+        background-size: 230px 208px;
+    }
 }
