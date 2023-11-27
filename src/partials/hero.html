@@ -1,3 +1,46 @@
-<section class="container">
-  <h1 class="hero_test">Hero test</h1>
+<section class="hero container">
+  <div class="hero-container">
+    <div class="hero-main-text-wrapper">
+      <h1 class="hero-title">Reviving the traditional <span class="hero-title-accent-color">Ukrainian</span> artistry in every stitch.</h1>
+      <a href="#" class="order-btn">Order
+        <svg width="24" height="16" class="order-btn-icon">
+          <use href="./images/svg-images.svg#icon-arrow"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="hero-main-img-wrapper">
+      <img
+        class="hero-main-img"
+        srcset="
+          ./images/mobile-1x-335/hero_1-mob-1.jpg  335w,
+          ./images/mobile-2x-335/hero_1-mob-2-2x.jpg  670w,
+          ./images/tablet-1x-704/hero_1-tab-1.jpg    413w,
+          ./images/tablet-2x-704/hero_1-tab-2-2x.jpg  826w,
+          ./images/desktop-1-1x-1280/hero_1-desk.jpg  392w,
+          ./images/desktop-1-2x-1280/hero_1-desk-x2.jpg 784w
+        "
+        sizes="(min-width: 375px) 335px, (min-width: 768px) 413px, (max-width: 1280px) 392px"
+        src="./images/mobile-1x-335/hero_1-mob-1.jpg"
+        alt="Vyshyvanka Vibes"
+      />
+    </div>
+    <div class="handmate-mark">
+      <svg width="49" height="49" class="handmate-mark-icon">
+          <use href="./images/svg-images.svg#icon-star"></use>
+        </svg>
+      <p class="handmate-mark-text">all embroidery is made by hand</p>
+    </div>
+    <div class="ukraine-map-ellipse">
+      <img
+      class="ukraine-map-ellipse-img"
+        srcset="
+          ./images/tablet-1x-704/hero_2-tab-1.jpg  139w,
+          ./images/tablet-2x-704/hero_2-tab-2-2x.jpg  198w,
+        "
+        sizes="(min-width: 768px) 139px"
+        src="./images/tablet-1x-704/hero_2-tab-1.jpg"
+        alt="Tiny map of Ukraine"
+       />
+    </div>
+  </div>
 </section>
