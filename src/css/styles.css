@@ -22,28 +22,44 @@ body {
 
 
 .container {
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
-@media (min-width: 375px) {}
-
-@media (min-width: 768px) {
+@media screen and (max-width: 375px) {
   .container {
-    min-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
     padding: 0 32px;
-    margin: 0 auto;
+    width: 768px;
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container {
-    min-width: 1280px;
-    padding: 0 99px;
-    margin: 0 auto;
+    padding: 0 100px;
+    width: 1280px;
   }
 }
 
-@media (min-width: 1440px) {}
+
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+
+}
