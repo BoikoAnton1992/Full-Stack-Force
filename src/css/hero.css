@@ -18,6 +18,7 @@ button {
     font-weight: 400;
     line-height: 1.23;
     letter-spacing: -0.03em;
+    text-align: left;
 }
 
 .hero-title-accent-color {
@@ -27,21 +28,24 @@ button {
 .order-btn {
     font-size: 14px;
     font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.56px;
+    letter-spacing: -0.04em;
     text-transform: uppercase;
-    background-color: transparent;
     color: #FCF9F9;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     margin-bottom: 40px;
     align-items: center;
     margin-top: 20px;
-    display: inline-flex;
     gap: 10px;
     padding: 14px 39px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* width: 168px; */
+    display: inline-flex;
+    justify-content: center;
+}
+
+.order-btn-icon {
+    line-height: 0;
+    height: 100%;
 }
 
 .order-btn:hover, .order-btn:focus {
@@ -57,9 +61,8 @@ button {
 }
 
 @media (max-width: 374px) {
-    .order-btn {
-        margin-left: auto;
-        margin-right: auto;
+    .hero-main-text-wrapper {
+        text-align: center;
     }
 }
 
