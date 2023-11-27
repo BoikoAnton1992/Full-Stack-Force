@@ -52,8 +52,8 @@ img {
     background-color: #1C2225;
     background-image: url(../images/icon-yellow.png);
     background-repeat: no-repeat;
-    background-position: -66px 267px;
-    background-size: 153px 144px;
+    background-position: -95px 313px;
+    background-size: 154px 152px;
 }
 
 .collect-list {
@@ -64,15 +64,16 @@ img {
     justify-content: center;
     padding: 0;
     margin: 0;
-    width: 280px;
+    width: 335px;
 }
 
 .collect-item {
-    width: 280px;
+    width: 375px;
 }
 
 .collect-img-box img {
     border-radius: 4px;
+    width: 375px;
 }
 
 .collect {
@@ -143,7 +144,11 @@ img {
     }
 
     .collect-list {
-        width: 580px;
+        width: 704px;
+    }
+
+    .collect-item {
+        width: 342px;
     }
 
     .collect-bg {
@@ -153,8 +158,8 @@ img {
     }
 
     .collect-box {
-        background-position: -98px 201px;
-        background-size: 254px 241px;
+        background-position: -229px 227px;
+        background-size: 345px 294px;
     }
 
     .collect-title {
@@ -195,12 +200,16 @@ img {
     }
 
     .collect-list {
-        width: 880px;
+        width: 1082px;
+    }
+
+    .collect-item {
+        width: 347px;
     }
 
     .collect-box {
-        background-position: -4px 198px;
-        background-size: 254px 241px;
+        background-position: -179px 217px;
+        background-size: 348px 306px;
     }
 
     .collect-title {
@@ -223,7 +232,7 @@ img {
     }
 
     .collect-bg {
-        background-image: url(../images/desktop-1-1x-1280/collect_bg.jpg);
+        background-image: url(/images/desktop-1-1x-1280/collect_bg-desk.jpg);
         height: 776px;
         margin: 150px auto;
     }
@@ -262,7 +271,7 @@ img {
     }
 
     .collect-box {
-        background-position: 18px 190px;
-        background-size: 230px 208px;
+        background-position: -164px 204px;
+        background-size: 329px 265px;
     }
 }
