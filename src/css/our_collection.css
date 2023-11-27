@@ -135,7 +135,7 @@ img {
 @media (min-width: 375px) {}
 
 /* ================ 768px ================== */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
     .container {
         min-width: 768px;
         padding: 0 32px;
@@ -187,7 +187,7 @@ img {
 }
 
 /* ================ 1280px ================== */
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .container {
         min-width: 1280px;
         padding: 0 99px;
@@ -228,11 +228,21 @@ img {
         margin: 150px auto;
     }
 
+    .collect-price {
+        color: rgba(252, 249, 249, 0.40);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.9px;
+        white-space: nowrap;
+    }
+
     .collect-img-box {
         transition:
             transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
             box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+
     .collect-img-box:hover,
     .collect-img-box:focus,
     .collect-img-box:active {
@@ -244,7 +254,7 @@ img {
 }
 
 /* ================ 1440px ================== */
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .collect-bg {
         background-image: url(../images/desktop-2-1x-1440/collect_bg-2-x1.jpg);
         height: 872px;
