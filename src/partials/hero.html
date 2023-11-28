@@ -9,20 +9,37 @@
       </a>
     </div>
     <div class="hero-main-img-wrapper">
-      <img
-        class="hero-main-img"
-        srcset="
-          ./images/mobile-1x-335/hero_1-mob-1.jpg  335w,
-          ./images/mobile-2x-335/hero_1-mob-2-2x.jpg  670w,
-          ./images/tablet-1x-704/hero_1-tab-1.jpg    413w,
-          ./images/tablet-2x-704/hero_1-tab-2-2x.jpg  826w,
-          ./images/desktop-1-1x-1280/hero_1-desk.jpg  392w,
-          ./images/desktop-1-2x-1280/hero_1-desk-x2.jpg 784w
-        "
-        sizes="(min-width: 375px) 335px, (min-width: 768px) 413px, (max-width: 1280px) 392px"
-        src="./images/mobile-1x-335/hero_1-mob-1.jpg"
-        alt="Vyshyvanka Vibes"
-      />
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./images/desktop-1-1x-1280/hero_1-desk.jpg    1x,
+            ./images/desktop-1-2x-1280/hero_1-desk-x2.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./images/tablet-1x-704/hero_1-tab-1.jpg    1x,
+            ./images/tablet-2x-704/hero_1-tab-2-2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./images/mobile-1x-335/hero_1-mob-1.jpg    1x,
+            ./images/mobile-2x-335/hero_1-mob-2-2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <img
+          class="hero-main-img"
+          src="./images/mobile-1x-335/hero_1-mob-1.jpg"
+          alt="Vyshyvanka vibes image"
+        />
+      </picture>
     </div>
     <div class="handmate-mark">
       <svg width="49" height="49" class="handmate-mark-icon">
