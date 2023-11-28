@@ -44,7 +44,7 @@ img {
 }
 
 
-.collect-box {
+.collect {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +157,7 @@ img {
         margin: 80px auto;
     }
 
-    .collect-box {
+    .collect {
         background-position: -229px 227px;
         background-size: 345px 294px;
     }
@@ -207,7 +207,7 @@ img {
         width: 347px;
     }
 
-    .collect-box {
+    .collect {
         background-position: -179px 217px;
         background-size: 348px 306px;
     }
@@ -270,7 +270,7 @@ img {
         margin: 150px auto;
     }
 
-    .collect-box {
+    .collect {
         background-position: -164px 204px;
         background-size: 329px 265px;
     }
