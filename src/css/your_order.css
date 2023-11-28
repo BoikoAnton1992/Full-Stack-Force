@@ -38,7 +38,7 @@ letter-spacing: -0.28px;
     border-radius: 15px;
 border: 1px solid rgba(252, 249, 249, 0.10);
     display: flex;
-width: 335px;
+width:100%;
 padding: 14px 16px;
 align-items: flex-start;
 gap: 8px; 
@@ -66,7 +66,8 @@ align-self: stretch;
     letter-spacing: -0.56px;
     text-transform: uppercase; 
     background-color: transparent;
-    margin-left: 85px;
+    margin-left:auto;
+    margin-right: auto;
     display: flex;
 height: 49px;
 padding: 14px 36px;
@@ -93,7 +94,7 @@ flex: 1 0 0;
 align-self: stretch; 
     border-radius: 8px;
 border: 1px solid rgba(252, 249, 249, 0.10);
-    width: 335px;
+    width: 100%;
     height: 196px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -140,9 +141,10 @@ letter-spacing: -1.32px;
     clip: rect(0 0 0 0);
     overflow: hidden;
     }
+    
     .box{
         display: flex;
-        align-items: center;
+        
         flex-direction: column;
         background-image: url(../images/icon-grey.png);
         background-size: 545px 484px;
@@ -191,22 +193,28 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
       width: 1280px;
     }
     .right{
-        grid-column: 2 / 3;
+        display: flex;
+        flex-direction: column;
         padding-left: 20px;
     }
     .left{
-        grid-column: 1 / 2;
     }
     .box{
         display: flex;
     }
     .order{
-        flex-direction: row;
-        display: grid;
-  grid-template-columns: 1fr 2fr;
+        flex-wrap: nowrap;
+        flex-direction:row-reverse;
+        display: flex;
     }
     .img{
+        display: flex;
+        margin-right:32px;
+        margin-left: 0;
         width: 524px;
+    }
+    .box{
+        align-items: flex-start;
     }
   }
 /* ========  DESKTOP========= */
