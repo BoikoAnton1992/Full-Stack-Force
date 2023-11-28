@@ -43,7 +43,6 @@ img {
     margin: 0 auto;
 }
 
-
 .collect {
     display: flex;
     justify-content: center;
@@ -123,12 +122,12 @@ img {
 /* ===================================== Background Collect======================================= */
 .collect-bg {
     display: block;
-    background-color: #1C2225;
     background-image: url(../images/mobile-1x-335/collect_bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     height: 550px;
+    width: 100%;
     margin: 80px auto;
 }
 
@@ -232,7 +231,7 @@ img {
     }
 
     .collect-bg {
-        background-image: url(/images/desktop-1-1x-1280/collect_bg-desk.jpg);
+        background-image: url(../images/desktop-1-1x-1280/collect_bg-desk.jpg);
         height: 776px;
         margin: 150px auto;
     }
