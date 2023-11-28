@@ -53,9 +53,7 @@ gap: 20px;
 align-self: stretch; 
 
 }
-.icon{
- 
-}
+
 .button{
     color: var(--white, #FCF9F9);
     font-family: Manrope;
@@ -185,8 +183,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
         flex-direction: column;
         padding-left: 32px;
     }
-    .left{
-    }
+  
     .box{
         display: flex;
     }
@@ -206,9 +203,8 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
         flex-direction: column;
         background-image: url(../images/icon-grey.png);
         background-size: 545px 484px;
-        background-repeat:repeat;
-        background-position: -210px bottom;
-
+        background-repeat: no-repeat;
+        background-position: -210px;
     }
   }
 /* ========  DESKTOP========= */

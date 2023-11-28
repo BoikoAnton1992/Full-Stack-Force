@@ -1,36 +1,58 @@
-<div class="container box">
+<section class="container box">
   <div class="order">
     <div class="right">
-    <div class="title">
-  <h1 class="your_order_test"><span class="yellow">Your order</span> is our priority: Personalized approach and quality of service</h1>
-</div>
-<form>
-  <div class="column">
-  <input  class="text" type="text" pattern="[0-15]{16}" required placeholder="Enter your full name">
-  <input  class="text" type="text" pattern="[0-20]{21}" required placeholder="Enter your email">
+      <div class="title">
+        <h1 class="your_order_test">
+          <span class="yellow">Your order</span> is our priority: Personalized
+          approach and quality of service
+        </h1>
+      </div>
+      <form>
+        <div class="column">
+          <input
+            class="text"
+            type="text"
+            pattern="[0-15]{16}"
+            required
+            placeholder="Enter your full name"
+          />
+          <input
+            class="text"
+            type="text"
+            pattern="[0-20]{21}"
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+        <textarea class="comments" required placeholder="Comments"></textarea>
+        <button class="button" type="submit">
+          Send<svg class="icon" width="24" height="16">
+            <use href="../images/svg-images.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <picture>
+      <!-- зображення для (пк) -->
+      <source
+        media="(min-width: 1280px)"
+        type="image/jpg"
+        srcset="
+          ../images/desktop-1-1x-1280/your_order-1-desk.jpg,
+          ./images/desktop-1-2x-1280/your_order-1-desk-2x.jpg
+        "
+      />
+      <!-- зображення для (планшет) -->
+      <source
+        media="(min-width: 768px)"
+        type="image/jpg"
+        srcset="../images/tablet-2x-704/your_order-1-tab-2-2x.jpg"
+      />
+      <img
+        class="img"
+        src="../images/tablet-1x-704/your_order-1-tab-1.jpg"
+        alt="foto"
+      />
+    </picture>
   </div>
-  <textarea class="comments" required placeholder="Comments"></textarea>
-  <button class="button" type="submit">Send<svg class="icon" width="24" height="16"><use href="../images/svg-images.svg#icon-arrow"></use></svg></button>
-</form>
-</div> 
-<picture>
- <!-- зображення для (пк) -->
- <source
- media="(min-width: 1280px)"
- type="image/jpg"
- srcset="../images/desktop-1-1x-1280/your_order-1-desk.jpg, 
- ./images/desktop-1-2x-1280/your_order-1-desk-2x.jpg
- "
-/>
-<!-- зображення для (планшет) -->
-<source
-media="(min-width: 768px)"
-type="image/jpg"
-srcset="../images/tablet-2x-704/your_order-1-tab-2-2x.jpg"
-/>
-<img class="img " src="../images/tablet-1x-704/your_order-1-tab-1.jpg" alt="foto">
-</picture>
-</div>
-
-</div>
 </section>
