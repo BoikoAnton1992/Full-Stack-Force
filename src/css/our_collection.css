@@ -132,13 +132,30 @@ img {
 }
 
 /* ====================================== Adaptive Mode======================================= */
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
+
+    .container {
+        min-width: 320px;
+        width: 100%;
+    }
+
+    .collect {
+        background-position: -95px 263px;
+        background-size: 154px 152px;
+    }
+
     .collect-item {
-        width: 280px;
+        /* width: 280px; */
+        max-width: 375px;
+        height: auto;
+        width: 100%;
     }
 
     .collect-list {
-        width: 280px;
+        /* width: 280px; */
+        max-width: 375px;
+        height: auto;
+        width: 100%;
     }
 }
 
