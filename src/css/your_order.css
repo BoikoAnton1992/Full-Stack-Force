@@ -133,7 +133,6 @@ letter-spacing: -1.32px;
     
     .box{
         display: flex;
-        
         flex-direction: column;
         background-image: url(../images/icon-grey.png);
         background-size: 545px 484px;
@@ -184,7 +183,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     .right{
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
+        padding-left: 32px;
     }
     .left{
     }
@@ -203,7 +202,13 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
         width: 524px;
     }
     .box{
-        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../images/icon-grey.png);
+        background-size: 545px 484px;
+        background-repeat:repeat;
+        background-position: -210px bottom;
+
     }
   }
 /* ========  DESKTOP========= */
