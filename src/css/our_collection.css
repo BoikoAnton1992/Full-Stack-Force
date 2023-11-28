@@ -43,8 +43,7 @@ img {
     margin: 0 auto;
 }
 
-
-.collect-box {
+.collect {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,12 +122,12 @@ img {
 /* ===================================== Background Collect======================================= */
 .collect-bg {
     display: block;
-    background-color: #1C2225;
     background-image: url(../images/mobile-1x-335/collect_bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     height: 550px;
+    width: 100%;
     margin: 80px auto;
 }
 
@@ -157,7 +156,7 @@ img {
         margin: 80px auto;
     }
 
-    .collect-box {
+    .collect {
         background-position: -229px 227px;
         background-size: 345px 294px;
     }
@@ -207,7 +206,7 @@ img {
         width: 347px;
     }
 
-    .collect-box {
+    .collect {
         background-position: -179px 217px;
         background-size: 348px 306px;
     }
@@ -232,7 +231,7 @@ img {
     }
 
     .collect-bg {
-        background-image: url(/images/desktop-1-1x-1280/collect_bg-desk.jpg);
+        background-image: url(../images/desktop-1-1x-1280/collect_bg-desk.jpg);
         height: 776px;
         margin: 150px auto;
     }
@@ -270,7 +269,7 @@ img {
         margin: 150px auto;
     }
 
-    .collect-box {
+    .collect {
         background-position: -164px 204px;
         background-size: 329px 265px;
     }
