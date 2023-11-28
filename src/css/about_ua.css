@@ -3,7 +3,7 @@
     background-image: url(../images/icon-grey.png);
     background-repeat: no-repeat;
     background-size: 459px 408px;
-    background-position: 125px 691px;
+    background-position: right -209px top 691px;
     padding-top: 80px;
     padding-bottom: 62px;
 }
@@ -40,7 +40,7 @@ margin-bottom: 20px;
         padding-top: 100px; 
         padding-bottom: 82px;
         background-size: 544px 484px;
-        background-position: 399px 573px;
+        background-position: right -175px top 573px;
     }
     .about-box {
         gap: 40px;
@@ -63,7 +63,7 @@ margin-bottom: 20px;
         padding-top: 150px;
         padding-bottom: 132px;
         background-size: 545px 484px;
-        background-position: 895px 291px;
+        background-position: right -160px top 291px;
     }
 
     .about-box {
