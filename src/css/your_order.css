@@ -15,7 +15,6 @@
     display: none;
 }
 .order{
-    
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -52,9 +51,6 @@ background-color: transparent;
 align-items: flex-start;
 gap: 20px;
 align-self: stretch; 
-}
-.icon{
- 
 }
 .button{
     color: var(--white, #FCF9F9);
@@ -121,7 +117,7 @@ border: 1px solid rgba(252, 249, 249, 0.10);
     }
     .your_order_test{
         font-size: 44px;
-line-height: 58px; /* 131.818% */
+line-height: 58px;
 letter-spacing: -1.32px; 
     }
     .yellow{
@@ -130,23 +126,20 @@ line-height: 58px;
 letter-spacing: -1.32px; 
     }
     
-    .box{
-        display: flex;
-        flex-direction: column;
-        background-image: url(../images/icon-grey.png);
-        background-size: 545px 484px;
-        background-repeat: no-repeat;
-        background-position: -210px bottom;
+.box{
+     display: flex;
+     flex-direction: column;
+     background-image: url(../images/icon-grey.png);
+    background-size: 545px 484px;
+    background-repeat: no-repeat;
+     background-position: -210px bottom;
 margin-bottom: 100px;
-margin-left: 0;
-margin-right: 0;
-    }
+}
     .text{
         font-size: 16px;
 letter-spacing: -0.32px; 
         width: 508px;
         height: 50px;
-
     }
     .comments{
         font-size: 16px;
@@ -154,19 +147,18 @@ letter-spacing: -0.32px;
         width: 508px;
     }
     .button{
-        display: flex;
-width: 168px;
-padding: 14px 39px;
-justify-content: center;
-align-items: center;
-gap: 10px; 
-        margin-left: 0;
-        margin-bottom: 100px;
+    display: flex;
+    width: 168px;
+    padding: 14px 39px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-left: 0;
+    margin-bottom: 100px;
     }
 .img{
     display: flex;
     margin-left: 66px;
-   
     width:638px ;
 height: 521px;
 flex-shrink: 0; 
@@ -188,8 +180,6 @@ margin-bottom:79px ;
         flex-direction: column;
         padding-left: 50px;
     }
-    .left{
-    }
     .box{
         display: flex;
     }
@@ -209,7 +199,7 @@ margin-bottom:79px ;
         flex-direction: column;
         background-image: url(../images/icon-grey.png);
         background-size: 545px 484px;
-        background-repeat:repeat;
+        background-repeat:no-repeat;
         background-position: -210px bottom;
 
     }
