@@ -1,14 +1,20 @@
 
 .about {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    gap: 50px;
     background-image: url(../images/icon-grey.png);
     background-repeat: no-repeat;
     background-size: 459px 408px;
-    background-position: 125px 611px;
-    padding-bottom: 80px;
+    background-position: right -209px top 691px;
+    padding-top: 80px;
+    padding-bottom: 62px;
+}
+
+.about-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .about-title {
@@ -30,13 +36,14 @@ margin-bottom: 20px;
 
 @media screen and (min-width: 768px) {
 
-    .container.about {
-        padding-bottom: 100px;
-    }
     .about {
-        gap: 40px;
+        padding-top: 100px; 
+        padding-bottom: 82px;
         background-size: 544px 484px;
-        background-position: 399px 473px;
+        background-position: right -175px top 573px;
+    }
+    .about-box {
+        gap: 40px;
     }
     
     .about-title {
@@ -52,18 +59,20 @@ margin-bottom: 20px;
   
   @media screen and (min-width: 1280px) {
 
-    .container.about {
-        padding-bottom: 150px;
+    .about {
+        padding-top: 150px;
+        padding-bottom: 132px;
+        background-size: 545px 484px;
+        background-position: right -160px top 291px;
     }
 
-    .about {
-        display: flex;
+    .about-box {
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
         gap: 50px;
-        background-size: 545px 484px;
-        background-position: 895px 141px;
+    }
+
+    .about-description {
+        width: 436px;
     }
     
   }
