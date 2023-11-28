@@ -154,7 +154,7 @@
   gap: 32px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 768px) {
   .tablet {
     visibility: hidden;
     display: none;
