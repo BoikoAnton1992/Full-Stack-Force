@@ -75,6 +75,16 @@
   align-items: center;
 }
 
+.mob {
+  visibility: hidden;
+  display: none;
+}
+
+.tablet {
+  visibility: hidden;
+  display: none;
+}
+
 /* ====================================== Adaptive Mode======================================= */
 /* ================ Lastic width 320 - 375 =========== */
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -99,6 +109,11 @@
 
   .testimonials-title {
     width: 280px;
+  }
+
+  .mob {
+    visibility: hidden;
+    display: none;
   }
 }
 
@@ -153,15 +168,16 @@
     justify-content: center;
   }
 
-  .tablet {
-    visibility: hidden;
-    display: none;
-    
-  }
-  .desktop {
+  .mob.tablet {
     visibility: hidden;
     display: none;
   }
+
+  .mob {
+    visibility: visible;
+    display: contents;
+  }
+
 }
 
 /* ================ 1280px ================== */
@@ -207,7 +223,8 @@
     visibility: visible;
     display: contents;
   }
-  .desktop {
+
+  .mob {
     visibility: visible;
     display: contents;
   }
@@ -235,15 +252,6 @@
     gap: 25px;
     width: 1080px;
     justify-content: space-between;
-  }
-
-  .tablet {
-    visibility: visible;
-    display: contents;
-  }
-  .desktop {
-    visibility: visible;
-    display: contents;
   }
 }
 /* ============================================Bull Shit=================================================== */
