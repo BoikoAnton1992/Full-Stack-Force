@@ -97,6 +97,9 @@ border: 1px solid rgba(252, 249, 249, 0.10);
     margin-top: 20px;
     margin-bottom: 40px;
 }
+.box{
+    padding-bottom: 40px;
+}
 @media screen and (min-width: 375px) {
     .container {
       width: 375px;
@@ -130,6 +133,7 @@ letter-spacing: -1.32px;
     
     
     .box{
+        padding-bottom: 50px;
         display: flex;
         flex-direction: column;
         background-image: url(../images/icon-grey.png);
@@ -185,6 +189,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     }
   
     .box{
+        padding-bottom: 75px;
         display: flex;
     }
     .order{
