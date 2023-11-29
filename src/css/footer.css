@@ -1,14 +1,10 @@
 .foot {
+    padding-top: 40px;
+    padding-bottom: 292px;
     background-image: url(../images/icon-yellow.png);
     background-repeat: no-repeat;
-    background-position: right -28px bottom -167px;
+    background-position: center bottom -167px;
     background-size: 417px 359px;
-}
-
-.nav-list-foot-mob {
-    padding-top: 40px;
-    display: flex;
-    gap: 40px;
 }
 
 .foot-list-box {
@@ -18,8 +14,8 @@
 }
 
 .nav-list-foot {
-    visibility: hidden;
-    display: none;
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link-foot {
@@ -36,8 +32,7 @@
     line-height: 1.23;
     letter-spacing: -0.03em;
     text-align: left;
-    padding-bottom: 295px;
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 .foot-title-accent-color {
@@ -64,18 +59,18 @@
         background-repeat: no-repeat;
         background-position: right -273px bottom -16px;
         background-size: 446px 402px;
+        padding-bottom: 40px;
     }
 
-    .nav-list-foot-mob {
-        visibility: hidden;
-        display: none;
-    }
 
     .nav-list-foot {
-        padding-top: 40px;
-        visibility: visible;
         display: flex;
+        flex-direction: row;
         gap: 25px;
+    }
+
+    .foot-list-box {
+        flex-direction: row;
     }
 
     .foot-title {
@@ -84,8 +79,7 @@
         font-weight: 400;
         line-height: 64px;
         letter-spacing: -1.62px;
-        padding-bottom: 40px;
-        padding-top: 80px;
+        margin-top: 80px;
     }
 }
 
@@ -102,6 +96,7 @@
         background-repeat: no-repeat;
         background-position: right -206px bottom -21px;
         background-size: 476px 409px;
+        padding-bottom: 40px;
     }
 
     .foot-title {
@@ -110,8 +105,7 @@
         font-weight: 400;
         line-height: 64px;
         letter-spacing: -1.62px;
-        padding-bottom: 40px;
-        padding-top: 117px;
+        margin-top: 117px;
     }
 
     
@@ -119,16 +113,14 @@
         white-space: pre-wrap;
     }
 
-    .nav-list-foot-mob {
-        visibility: hidden;
-        display: none;
+    .nav-list-foot {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
     }
 
-    .nav-list-foot {
-        padding-top: 40px;
-        visibility: visible;
-        display: flex;
-        gap: 25px;
+    .foot-list-box {
+        flex-direction: row;
     }
 }
 
@@ -139,6 +131,7 @@
         background-repeat: no-repeat;
         background-position: right -98px bottom -104px;
         background-size: 608px 511px;
+        padding-bottom: 40px;
     }
 
     .foot-title-accent-color {
@@ -147,5 +140,15 @@
 
     .foot-title {
         width: 640px;
+    }
+
+    .nav-list-foot {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .foot-list-box {
+        flex-direction: row;
     }
 }
