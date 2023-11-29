@@ -32,15 +32,6 @@ button {
 
 img {
     display: block;
-    /* max-width: 100%;
-    height: auto; */
-}
-
-.container {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
 }
 
 .collect {
@@ -86,8 +77,8 @@ img {
     font-family: Manrope;
     font-size: 14px;
     font-weight: 500;
-    line-height: 14px;
-    letter-spacing: 0.7px;
+    line-height: 1;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-top: 18px;
     white-space: nowrap;
@@ -98,8 +89,8 @@ img {
     color: rgba(252, 249, 249, 0.40);
     font-size: 14px;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.7px;
+    line-height: 1;
+    letter-spacing: 0.05em;
     margin-top: 8px;
     height: auto;
     width: 70px;
@@ -113,8 +104,8 @@ img {
     margin-bottom: 40px;
     font-size: 32px;
     font-weight: 500;
-    line-height: 44px;
-    letter-spacing: -0.96px;
+    line-height: 1,3;
+    letter-spacing: -0.03em;
     white-space: nowrap;
     text-align: center;
     text-transform: capitalize;
@@ -134,11 +125,6 @@ img {
 
 /* ====================================== Adaptive Mode======================================= */
 @media screen and (min-width: 320px) and (max-width: 374px) {
-
-    .container {
-        min-width: 320px;
-        width: 100%;
-    }
 
     .collect {
         background-position: -95px 263px;
@@ -160,11 +146,6 @@ img {
 
 /* ================ 768px ================== */
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-    .container {
-        min-width: 768px;
-        padding: 0 32px;
-        margin: 0 auto;
-    }
 
     .collect-list {
         width: 704px;
@@ -188,16 +169,16 @@ img {
     .collect-title {
         font-size: 44px;
         font-weight: 500;
-        line-height: 64px;
-        letter-spacing: -1.32px;
+        line-height: 1.4;
+        letter-spacing: 0.03em;
         white-space: nowrap;
     }
 
     .collect-description {
         font-size: 18px;
         font-weight: 500;
-        line-height: 18px;
-        letter-spacing: 0.9px;
+        line-height: 1;
+        letter-spacing: 0.05em;
         text-transform: uppercase;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -208,19 +189,14 @@ img {
         color: rgba(252, 249, 249, 0.40);
         font-size: 18px;
         font-weight: 400;
-        line-height: 18px;
-        letter-spacing: 0.9px;
+        line-height: 1;
+        letter-spacing: 0.05em;
         white-space: nowrap;
     }
 }
 
 /* ================ 1280px ================== */
 @media screen and (min-width: 1280px) {
-    .container {
-        min-width: 1280px;
-        padding: 0 99px;
-        margin: 0 auto;
-    }
 
     .collect-list {
         width: 1082px;
@@ -238,16 +214,16 @@ img {
     .collect-title {
         font-size: 44px;
         font-weight: 500;
-        line-height: 64px;
-        letter-spacing: -1.32px;
+        line-height: 1.4;
+        letter-spacing: 0.03em;
         white-space: nowrap;
     }
 
     .collect-description {
         font-size: 18px;
         font-weight: 500;
-        line-height: 18px;
-        letter-spacing: 0.9px;
+        line-height: 1;
+        letter-spacing: 0.05em;
         text-transform: uppercase;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -264,15 +240,14 @@ img {
         color: rgba(252, 249, 249, 0.40);
         font-size: 18px;
         font-weight: 400;
-        line-height: 18px;
-        letter-spacing: 0.9px;
+        line-height: 1;
+        letter-spacing: 0.05em;
         white-space: nowrap;
     }
 
     .collect-img-box {
         transition:
-            transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .collect-img-box:hover,
@@ -281,7 +256,6 @@ img {
         border-radius: 4px;
         transform: scale(1.04);
         border: 1px solid #ECD979;
-        box-shadow: 0px 4px 4px 0px #ecd979;
     }
 }
 
