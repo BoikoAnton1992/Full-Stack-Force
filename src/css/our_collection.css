@@ -271,8 +271,7 @@ img {
 
     .collect-img-box {
         transition:
-            transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .collect-img-box:hover,
@@ -281,7 +280,6 @@ img {
         border-radius: 4px;
         transform: scale(1.04);
         border: 1px solid #ECD979;
-        box-shadow: 0px 4px 4px 0px #ecd979;
     }
 }
 
