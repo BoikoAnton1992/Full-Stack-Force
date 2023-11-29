@@ -23,7 +23,9 @@
     font-weight: 400;
     line-height: 18px;
     text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .foot-title {
     font-size: 44px;
@@ -122,6 +124,11 @@
     .foot-list-box {
         flex-direction: row;
     }
+    .nav-link-foot:hover,
+    .nav-link-foot:focus,
+    .nav-link-foot:active {
+            color: var(--yellow, #ECD979);
+        }
 }
 
 /* ================ 1440px ================== */
