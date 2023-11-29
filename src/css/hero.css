@@ -1,7 +1,10 @@
 /* ================ MOBILE HERO ================ */
 
-.hero-container {
+.hero {
     padding-top: 60px;
+}
+
+.hero-container {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -44,7 +47,8 @@
     height: 100%;
 }
 
-.order-btn:hover, .order-btn:focus {
+.order-btn:hover,
+.order-btn:focus {
     border-color: #ECD979;
 }
 
@@ -80,8 +84,12 @@
 
 @media (min-width: 768px) {
 
+    .hero {
+        padding-top: 80px;
+    }
+
     .hero-container {
-        padding-top: 106px;
+        padding-top: 26px;
     }
 
     .hero-main-text-wrapper {
@@ -101,12 +109,12 @@
     .handmate-mark {
         display: flex;
         position: absolute;
-        top: 80px;
+        top: 0;
         right: 0;
         gap: 16px;
         flex-direction: column;
         align-items: center;
-     }
+    }
 
     .handmate-mark-text {
         width: 115px;
@@ -142,8 +150,12 @@
 /* ================ 1280px DESKTOP HERO ================ */
 
 @media (min-width: 1280px) {
-    .hero-container {
+
+    .hreo {
         padding-top: 100px;
+    }
+
+    .hero-container {
         flex-direction: row;
         gap: 40px;
     }
@@ -162,7 +174,7 @@
     }
 
     .handmate-mark {
-        top: 116px;
+        top: 40px;
     }
 }
 
@@ -184,7 +196,7 @@
     }
 
     .handmate-mark {
-        top: 166px;
+        top: 20px;
     }
 }
 
