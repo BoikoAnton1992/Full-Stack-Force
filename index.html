@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/Full-Stack-Force/assets/index-7c0e763a.css">
+    <link rel="stylesheet" href="/Full-Stack-Force/assets/index-8cb6ab19.css">
   </head>
   <body>
     <header class="container header-container">
@@ -100,39 +100,57 @@
 </div>
 
     <main>
-      <section class="hero container">
-  <div class="hero-container">
-    <div class="hero-main-text-wrapper">
+      <section class="hero">
+  <div class="container">
+    <div class="hero-container">
+      <div class="hero-main-text-wrapper">
       <h1 class="hero-title">Reviving the traditional <span class="hero-title-accent-color">Ukrainian</span> artistry in every stitch.</h1>
-      <a href="#" class="order-btn">Order
+      <a href="#your-order" class="order-btn">Order
         <svg width="24" height="16" class="order-btn-icon">
           <use href="/Full-Stack-Force/assets/svg-images-754befe5.svg#icon-arrow"></use>
         </svg>
       </a>
     </div>
-    <div class="hero-main-img-wrapper">
+    <picture class="hero-main-img-wrapper">
+      <source
+        media="(min-width: 1280px)"
+        srcset="/Full-Stack-Force/assets/hero_1-desk-592f564c.jpg 1x, /Full-Stack-Force/assets/hero_1-desk-x2-056d9759.jpg 2x"
+        type="image/jpg"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/Full-Stack-Force/assets/hero_1-tab-1-9f812c76.jpg 1x, /Full-Stack-Force/assets/hero_1-tab-2-2x-b8311439.jpg 2x"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="/Full-Stack-Force/assets/hero_1-mob-1-e927c1de.jpg 1x, /Full-Stack-Force/assets/hero_1-mob-2-2x-748f000d.jpg 2x"
+        type="image/jpg"
+      />
       <img
         class="hero-main-img"
-        srcset="/Full-Stack-Force/assets/hero_1-mob-1-e927c1de.jpg 335w, /Full-Stack-Force/assets/hero_1-mob-2-2x-748f000d.jpg 670w, /Full-Stack-Force/assets/hero_1-tab-1-9f812c76.jpg 413w, /Full-Stack-Force/assets/hero_1-tab-2-2x-b8311439.jpg 826w, /Full-Stack-Force/assets/hero_1-desk-592f564c.jpg 392w, /Full-Stack-Force/assets/hero_1-desk-x2-056d9759.jpg 784w"
-        sizes="(min-width: 375px) 335px, (min-width: 768px) 413px, (max-width: 1280px) 392px"
         src="/Full-Stack-Force/assets/hero_1-mob-1-e927c1de.jpg"
-        alt="Vyshyvanka Vibes"
+        alt="Vyshyvanka vibes image"
       />
-    </div>
+    </picture>
     <div class="handmate-mark">
       <svg width="49" height="49" class="handmate-mark-icon">
           <use href="/Full-Stack-Force/assets/svg-images-754befe5.svg#icon-star"></use>
         </svg>
       <p class="handmate-mark-text">all embroidery is made by hand</p>
     </div>
-    <div class="ukraine-map-ellipse">
-      <img
-      class="ukraine-map-ellipse-img"
-        srcset="/Full-Stack-Force/assets/hero_2-tab-1-5f516505.jpg 139w, /Full-Stack-Force/assets/hero_2-tab-2-2x-ce0ba0de.jpg 198w"
-        sizes="(min-width: 768px) 139px"
-        src="/Full-Stack-Force/assets/hero_2-tab-1-5f516505.jpg"
-        alt="Tiny map of Ukraine"
-       />
+    <picture class="ukraine-map-ellipse">
+        <source
+          media="(min-width: 768px)"
+          srcset="/Full-Stack-Force/assets/hero_2-tab-1-5f516505.jpg 1x, /Full-Stack-Force/assets/hero_2-tab-2-2x-ce0ba0de.jpg 2x"
+          type="image/jpg"
+        />
+        <img
+          class="ukraine-map-ellipse-img"
+          src="/Full-Stack-Force/assets/hero_2-tab-1-5f516505.jpg"
+          alt="Tiny map of Ukraine"
+        />
+    </picture>
     </div>
   </div>
 </section>
